@@ -22,661 +22,661 @@
     ],
     "paths": {
         "/v3/mail/send": {
-            "$ref": "./spec/paths/mail_send/mail_send.json#/mail_send"
+            "$ref": "./spec/paths/mail_send/mail_send.json"
         },
         "/v3/api_keys": {
-            "$ref": "./spec/paths/security/api_keys.json#/api_keys"
+            "$ref": "./spec/paths/security/api_keys.json"
         },
         "/v3/api_keys/{api_key_id}": {
-            "$ref": "./spec/paths/security/api_keys.json#/api_keys_{api_key_id}"
+            "$ref": "./spec/paths/security/api_keys.json"
         },
         "/v3/scopes": {
-            "$ref": "./spec/paths/security/api_keys.json#/scopes"
+            "$ref": "./spec/paths/security/api_keys.json"
         },
         "/v3/user/settings/enforced_tls": {
-            "$ref": "./spec/paths/security/settings.json#/user_settings_enforced_tls"
+            "$ref": "./spec/paths/security/settings.json"
         },
         "/v3/access_settings/whitelist": {
-            "$ref": "./spec/paths/security/ip_access_management.json#/access_settings_whitelist"
+            "$ref": "./spec/paths/security/ip_access_management.json"
         },
         "/v3/access_settings/activity": {
-            "$ref": "./spec/paths/security/ip_access_management.json#/access_settings_activity"
+            "$ref": "./spec/paths/security/ip_access_management.json"
         },
         "/v3/access_settings/whitelist/{rule_id}": {
-            "$ref": "./spec/paths/security/ip_access_management.json#/access_settings_whitelist_{rule_id}"
+            "$ref": "./spec/paths/security/ip_access_management.json"
         },
         "/v3/sso/certificates": {
-            "$ref": "./spec/paths/single_sign_on/certificates.json#/sso_certificates"
+            "$ref": "./spec/paths/single_sign_on/certificates.json"
         },
         "/v3/sso/integrations/{integration_id}/certificates": {
-            "$ref": "./spec/paths/single_sign_on/certificates.json#/sso_integrations_{integration_id}_certificates"
+            "$ref": "./spec/paths/single_sign_on/certificates.json"
         },
         "/v3/sso/certificates/{cert_id}": {
-            "$ref": "./spec/paths/single_sign_on/certificates.json#/sso_certificates_{cert_id}"
+            "$ref": "./spec/paths/single_sign_on/certificates.json"
         },
         "/v3/sso/integrations": {
-            "$ref": "./spec/paths/single_sign_on/settings.json#/sso_integrations"
+            "$ref": "./spec/paths/single_sign_on/settings.json"
         },
         "/v3/sso/integrations/{id}": {
-            "$ref": "./spec/paths/single_sign_on/settings.json#/sso_integrations_{id}"
+            "$ref": "./spec/paths/single_sign_on/settings.json"
         },
         "/v3/sso/teammates": {
-            "$ref": "./spec/paths/single_sign_on/teammates.json#/sso_teammates"
+            "$ref": "./spec/paths/single_sign_on/teammates.json"
         },
         "/v3/sso/teammates/{username}": {
-            "$ref": "./spec/paths/single_sign_on/teammates.json#/sso_teammates_{username}"
+            "$ref": "./spec/paths/single_sign_on/teammates.json"
         },
         "/v3/send_ips/pools": {
-            "$ref": "./spec/paths/deliverability/ip_address_management.json#/pools"
+            "$ref": "./spec/paths/deliverability/ip_address_management.json"
         },
         "/v3/send_ips/pools/{poolid}": {
-            "$ref": "./spec/paths/deliverability/ip_address_management.json#/pools_{poolid}"
+            "$ref": "./spec/paths/deliverability/ip_address_management.json"
         },
         "/v3/send_ips/pools/{poolid}/ips": {
-            "$ref": "./spec/paths/deliverability/ip_address_management.json#/pools_{poolid}_ips"
+            "$ref": "./spec/paths/deliverability/ip_address_management.json"
         },
         "/v3/send_ips/pools/{poolid}/ips:batchAdd": {
-            "$ref": "./spec/paths/deliverability/ip_address_management.json#/pools_{poolid}_ips_batchAdd"
+            "$ref": "./spec/paths/deliverability/ip_address_management.json"
         },
         "/v3/send_ips/pools/{poolid}/ips:batchDelete": {
-            "$ref": "./spec/paths/deliverability/ip_address_management.json#/pools_{poolid}_ips_batchDelete"
+            "$ref": "./spec/paths/deliverability/ip_address_management.json"
         },
         "/v3/send_ips/ips/{ip}/subusers": {
-            "$ref": "./spec/paths/deliverability/ip_address_management.json#/ips_{ip}_subusers"
+            "$ref": "./spec/paths/deliverability/ip_address_management.json"
         },
         "/v3/send_ips/ips/{ip}/subusers:batchAdd": {
-            "$ref": "./spec/paths/deliverability/ip_address_management.json#/ips_{ip}_subusers_batchAdd"
+            "$ref": "./spec/paths/deliverability/ip_address_management.json"
         },
         "/v3/send_ips/ips/{ip}/subusers:batchDelete": {
-            "$ref": "./spec/paths/deliverability/ip_address_management.json#/ips_{ip}_subusers_batchDelete"
+            "$ref": "./spec/paths/deliverability/ip_address_management.json"
         },
         "/v3/send_ips/ips": {
-            "$ref": "./spec/paths/deliverability/ip_address_management.json#/ips"
+            "$ref": "./spec/paths/deliverability/ip_address_management.json"
         },
         "/v3/send_ips/ips/{ip}": {
-            "$ref": "./spec/paths/deliverability/ip_address_management.json#/ips_{ip}"
+            "$ref": "./spec/paths/deliverability/ip_address_management.json"
         },
         "/v3/whitelabel/links": {
-            "$ref": "./spec/paths/deliverability/link_branding.json#/whitelabel_links"
+            "$ref": "./spec/paths/deliverability/link_branding.json"
         },
         "/v3/whitelabel/links/{id}/validate": {
-            "$ref": "./spec/paths/deliverability/link_branding.json#/whitelabel_links_{id}_validate"
+            "$ref": "./spec/paths/deliverability/link_branding.json"
         },
         "/v3/whitelabel/links/{link_id}/subuser": {
-            "$ref": "./spec/paths/deliverability/link_branding.json#/whitelabel_links_{link_id}_subuser"
+            "$ref": "./spec/paths/deliverability/link_branding.json"
         },
         "/v3/whitelabel/links/{id}": {
-            "$ref": "./spec/paths/deliverability/link_branding.json#/whitelabel_links_{id}"
+            "$ref": "./spec/paths/deliverability/link_branding.json"
         },
         "/v3/whitelabel/links/default": {
-            "$ref": "./spec/paths/deliverability/link_branding.json#/whitelabel_links_default"
+            "$ref": "./spec/paths/deliverability/link_branding.json"
         },
         "/v3/whitelabel/links/subuser": {
-            "$ref": "./spec/paths/deliverability/link_branding.json#/whitelabel_links_subuser"
+            "$ref": "./spec/paths/deliverability/link_branding.json"
         },
         "/v3/ips/warmup": {
-            "$ref": "./spec/paths/deliverability/ip_warmup.json#/ips_warmup"
+            "$ref": "./spec/paths/deliverability/ip_warmup.json"
         },
         "/v3/ips/warmup/{ip_address}": {
-            "$ref": "./spec/paths/deliverability/ip_warmup.json#/ips_warmup_{ip_address}"
+            "$ref": "./spec/paths/deliverability/ip_warmup.json"
         },
         "/v3/whitelabel/ips": {
-            "$ref": "./spec/paths/deliverability/reverse_dns.json#/whitelabel_ips"
+            "$ref": "./spec/paths/deliverability/reverse_dns.json"
         },
         "/v3/whitelabel/ips/{id}/validate": {
-            "$ref": "./spec/paths/deliverability/reverse_dns.json#/whitelabel_ips_{id}_validate"
+            "$ref": "./spec/paths/deliverability/reverse_dns.json"
         },
         "/v3/whitelabel/ips/{id}": {
-            "$ref": "./spec/paths/deliverability/reverse_dns.json#/whitelabel_ips_{id}"
+            "$ref": "./spec/paths/deliverability/reverse_dns.json"
         },
         "/v3/validations/email": {
-            "$ref": "./spec/paths/deliverability/email_address_validation.json#/validations_email"
+            "$ref": "./spec/paths/deliverability/email_address_validation.json"
         },
         "/v3/whitelabel/dns/email": {
-            "$ref": "./spec/paths/deliverability/email_cname_records.json#/whitelabel_dns_email"
+            "$ref": "./spec/paths/deliverability/email_cname_records.json"
         },
         "/v3/ips/pools": {
-            "$ref": "./spec/paths/deliverability/ip_pools.json#/ips_pools"
+            "$ref": "./spec/paths/deliverability/ip_pools.json"
         },
         "/v3/ips/pools/{pool_name}/ips": {
-            "$ref": "./spec/paths/deliverability/ip_pools.json#/ips_pools_{pool_name}_ips"
+            "$ref": "./spec/paths/deliverability/ip_pools.json"
         },
         "/v3/ips/pools/{pool_name}": {
-            "$ref": "./spec/paths/deliverability/ip_pools.json#/ips_pools_{pool_name}"
+            "$ref": "./spec/paths/deliverability/ip_pools.json"
         },
         "/v3/ips/pools/{pool_name}/ips/{ip}": {
-            "$ref": "./spec/paths/deliverability/ip_pools.json#/ips_pools_{pool_name}_ips_{ip}"
+            "$ref": "./spec/paths/deliverability/ip_pools.json"
         },
         "/v3/ips": {
-            "$ref": "./spec/paths/deliverability/ip_address.json#/ips"
+            "$ref": "./spec/paths/deliverability/ip_address.json"
         },
         "/v3/ips/remaining": {
-            "$ref": "./spec/paths/deliverability/ip_address.json#/ips_remaining"
+            "$ref": "./spec/paths/deliverability/ip_address.json"
         },
         "/v3/ips/assigned": {
-            "$ref": "./spec/paths/deliverability/ip_address.json#/ips_assigned"
+            "$ref": "./spec/paths/deliverability/ip_address.json"
         },
         "/v3/ips/{ip_address}": {
-            "$ref": "./spec/paths/deliverability/ip_address.json#/ips_{ip_address}"
+            "$ref": "./spec/paths/deliverability/ip_address.json"
         },
         "/v3/mail_settings": {
-            "$ref": "./spec/paths/settings/mail.json#/mail_settings"
+            "$ref": "./spec/paths/settings/mail.json"
         },
         "/v3/mail_settings/address_whitelist": {
-            "$ref": "./spec/paths/settings/mail.json#/mail_settings_address_whitelist"
+            "$ref": "./spec/paths/settings/mail.json"
         },
         "/v3/mail_settings/footer": {
-            "$ref": "./spec/paths/settings/mail.json#/mail_settings_footer"
+            "$ref": "./spec/paths/settings/mail.json"
         },
         "/v3/mail_settings/forward_spam": {
-            "$ref": "./spec/paths/settings/mail.json#/mail_settings_forward_spam"
+            "$ref": "./spec/paths/settings/mail.json"
         },
         "/v3/mail_settings/template": {
-            "$ref": "./spec/paths/settings/mail.json#/mail_settings_template"
+            "$ref": "./spec/paths/settings/mail.json"
         },
         "/v3/mail_settings/bounce_purge": {
-            "$ref": "./spec/paths/settings/mail.json#/mail_settings_bounce_purge"
+            "$ref": "./spec/paths/settings/mail.json"
         },
         "/v3/mail_settings/forward_bounce": {
-            "$ref": "./spec/paths/settings/mail.json#/mail_settings_forward_bounce"
+            "$ref": "./spec/paths/settings/mail.json"
         },
         "/v3/partner_settings": {
-            "$ref": "./spec/paths/settings/partner.json#/partner_settings"
+            "$ref": "./spec/paths/settings/partner.json"
         },
         "/v3/teammates": {
-            "$ref": "./spec/paths/settings/teammate.json#/teammates"
+            "$ref": "./spec/paths/settings/teammate.json"
         },
         "/v3/teammates/pending/{token}/resend": {
-            "$ref": "./spec/paths/settings/teammate.json#/teammates_pending_{token}_resend"
+            "$ref": "./spec/paths/settings/teammate.json"
         },
         "/v3/scopes/requests": {
-            "$ref": "./spec/paths/settings/teammate.json#/scopes_requests"
+            "$ref": "./spec/paths/settings/teammate.json"
         },
         "/v3/teammates/pending": {
-            "$ref": "./spec/paths/settings/teammate.json#/teammates_pending"
+            "$ref": "./spec/paths/settings/teammate.json"
         },
         "/v3/teammates/{username}": {
-            "$ref": "./spec/paths/settings/teammate.json#/teammates_{username}"
+            "$ref": "./spec/paths/settings/teammate.json"
         },
         "/v3/scopes/requests/{request_id}/approve": {
-            "$ref": "./spec/paths/settings/teammate.json#/scopes_requests_{request_id}_approve"
+            "$ref": "./spec/paths/settings/teammate.json"
         },
         "/v3/scopes/requests/{request_id}": {
-            "$ref": "./spec/paths/settings/teammate.json#/scopes_requests_{request_id}"
+            "$ref": "./spec/paths/settings/teammate.json"
         },
         "/v3/teammates/pending/{token}": {
-            "$ref": "./spec/paths/settings/teammate.json#/teammates_pending_{token}"
+            "$ref": "./spec/paths/settings/teammate.json"
         },
         "/v3/alerts": {
-            "$ref": "./spec/paths/settings/alerts.json#/alerts"
+            "$ref": "./spec/paths/settings/alerts.json"
         },
         "/v3/alerts/{alert_id}": {
-            "$ref": "./spec/paths/settings/alerts.json#/alerts_{alert_id}"
+            "$ref": "./spec/paths/settings/alerts.json"
         },
         "/v3/user/profile": {
-            "$ref": "./spec/paths/settings/alerts.json#/user_profile"
+            "$ref": "./spec/paths/settings/alerts.json"
         },
         "/v3/user/account": {
-            "$ref": "./spec/paths/settings/alerts.json#/user_account"
+            "$ref": "./spec/paths/settings/alerts.json"
         },
         "/v3/user/email": {
-            "$ref": "./spec/paths/settings/alerts.json#/user_email"
+            "$ref": "./spec/paths/settings/alerts.json"
         },
         "/v3/user/username": {
-            "$ref": "./spec/paths/settings/alerts.json#/user_username"
+            "$ref": "./spec/paths/settings/alerts.json"
         },
         "/v3/user/credits": {
-            "$ref": "./spec/paths/settings/alerts.json#/user_credits"
+            "$ref": "./spec/paths/settings/alerts.json"
         },
         "/v3/user/password": {
-            "$ref": "./spec/paths/settings/alerts.json#/user_password"
+            "$ref": "./spec/paths/settings/alerts.json"
         },
         "/v3/subusers": {
-            "$ref": "./spec/paths/settings/subusers_api.json#/subusers"
+            "$ref": "./spec/paths/settings/subusers_api.json"
         },
         "/v3/subusers/{subuser_name}": {
-            "$ref": "./spec/paths/settings/subusers_api.json#/subusers_{subuser_name}"
+            "$ref": "./spec/paths/settings/subusers_api.json"
         },
         "/v3/subusers/reputations": {
-            "$ref": "./spec/paths/settings/subusers_api.json#/subusers_reputations"
+            "$ref": "./spec/paths/settings/subusers_api.json"
         },
         "/v3/subusers/{subuser_name}/ips": {
-            "$ref": "./spec/paths/settings/subusers_api.json#/subusers_{subuser_name}_ips"
+            "$ref": "./spec/paths/settings/subusers_api.json"
         },
         "/v3/subusers/{subuser_name}/stats/monthly": {
-            "$ref": "./spec/paths/settings/subuser_statistics.json#/subusers_{subuser_name}_stats_monthly"
+            "$ref": "./spec/paths/settings/subuser_statistics.json"
         },
         "/v3/subusers/stats/monthly": {
-            "$ref": "./spec/paths/settings/subuser_statistics.json#/subusers_stats_monthly"
+            "$ref": "./spec/paths/settings/subuser_statistics.json"
         },
         "/v3/subusers/stats/sums": {
-            "$ref": "./spec/paths/settings/subuser_statistics.json#/subusers_stats_sums"
+            "$ref": "./spec/paths/settings/subuser_statistics.json"
         },
         "/v3/subusers/stats": {
-            "$ref": "./spec/paths/settings/subuser_statistics.json#/subusers_stats"
+            "$ref": "./spec/paths/settings/subuser_statistics.json"
         },
         "/v3/whitelabel/domains": {
-            "$ref": "./spec/paths/sender_verification/domain_authentication.json#/whitelabel_domains"
+            "$ref": "./spec/paths/sender_verification/domain_authentication.json"
         },
         "/v3/whitelabel/domains/{domain_id}": {
-            "$ref": "./spec/paths/sender_verification/domain_authentication.json#/whitelabel_domains_{domain_id}"
+            "$ref": "./spec/paths/sender_verification/domain_authentication.json"
         },
         "/v3/whitelabel/domains/default": {
-            "$ref": "./spec/paths/sender_verification/domain_authentication.json#/whitelabel_domains_default"
+            "$ref": "./spec/paths/sender_verification/domain_authentication.json"
         },
         "/v3/whitelabel/domains/{id}/ips": {
-            "$ref": "./spec/paths/sender_verification/domain_authentication.json#/whitelabel_domains_{id}_ips"
+            "$ref": "./spec/paths/sender_verification/domain_authentication.json"
         },
         "/v3/whitelabel/domains/{id}/ips/{ip}": {
-            "$ref": "./spec/paths/sender_verification/domain_authentication.json#/whitelabel_domains_{id}_ips_{ip}"
+            "$ref": "./spec/paths/sender_verification/domain_authentication.json"
         },
         "/v3/whitelabel/domains/{id}/validate": {
-            "$ref": "./spec/paths/sender_verification/domain_authentication.json#/whitelabel_domains_{id}_validate"
+            "$ref": "./spec/paths/sender_verification/domain_authentication.json"
         },
         "/v3/whitelabel/domains/subuser": {
-            "$ref": "./spec/paths/sender_verification/domain_authentication.json#/whitelabel_domains_subuser"
+            "$ref": "./spec/paths/sender_verification/domain_authentication.json"
         },
         "/v3/whitelabel/domains/{domain_id}/subuser": {
-            "$ref": "./spec/paths/sender_verification/domain_authentication.json#/whitelabel_domains_{domain_id}_subuser"
+            "$ref": "./spec/paths/sender_verification/domain_authentication.json"
         },
         "/v3/verified_senders/domains": {
-            "$ref": "./spec/paths/sender_verification/sender_verification.json#/verified_senders_domains"
+            "$ref": "./spec/paths/sender_verification/sender_verification.json"
         },
         "/v3/verified_senders/steps_completed": {
-            "$ref": "./spec/paths/sender_verification/sender_verification.json#/verified_senders_steps_completed"
+            "$ref": "./spec/paths/sender_verification/sender_verification.json"
         },
         "/v3/verified_senders/verify/{token}": {
-            "$ref": "./spec/paths/sender_verification/sender_verification.json#/verified_senders_verify_{token}"
+            "$ref": "./spec/paths/sender_verification/sender_verification.json"
         },
         "/v3/verified_senders/{id}": {
-            "$ref": "./spec/paths/sender_verification/sender_verification.json#/verified_senders_{id}"
+            "$ref": "./spec/paths/sender_verification/sender_verification.json"
         },
         "/v3/verified_senders": {
-            "$ref": "./spec/paths/sender_verification/sender_verification.json#/verified_senders"
+            "$ref": "./spec/paths/sender_verification/sender_verification.json"
         },
         "/v3/verified_senders/resend/{id}": {
-            "$ref": "./spec/paths/sender_verification/sender_verification.json#/verified_senders_resend_{id}"
+            "$ref": "./spec/paths/sender_verification/sender_verification.json"
         },
         "/v3/designs": {
-            "$ref": "./spec/paths/design_library/designs_api.json#/designs"
+            "$ref": "./spec/paths/design_library/designs_api.json"
         },
         "/v3/designs/{id}": {
-            "$ref": "./spec/paths/design_library/designs_api.json#/designs_{id}"
+            "$ref": "./spec/paths/design_library/designs_api.json"
         },
         "/v3/designs/pre-builts": {
-            "$ref": "./spec/paths/design_library/designs_api.json#/designs_pre-builts"
+            "$ref": "./spec/paths/design_library/designs_api.json"
         },
         "/v3/designs/pre-builts/{id}": {
-            "$ref": "./spec/paths/design_library/designs_api.json#/designs_pre-builts_{id}"
+            "$ref": "./spec/paths/design_library/designs_api.json"
         },
         "/v3/marketing/contacts": {
-            "$ref": "./spec/paths/new_marketing_campaigns/contacts.json#/marketing_contacts"
+            "$ref": "./spec/paths/new_marketing_campaigns/contacts.json"
         },
         "/v3/marketing/contacts/count": {
-            "$ref": "./spec/paths/new_marketing_campaigns/contacts.json#/marketing_contacts_count"
+            "$ref": "./spec/paths/new_marketing_campaigns/contacts.json"
         },
         "/v3/marketing/contacts/{id}": {
-            "$ref": "./spec/paths/new_marketing_campaigns/contacts.json#/marketing_contacts_{id}"
+            "$ref": "./spec/paths/new_marketing_campaigns/contacts.json"
         },
         "/v3/marketing/contacts/search": {
-            "$ref": "./spec/paths/new_marketing_campaigns/contacts.json#/marketing_contacts_search"
+            "$ref": "./spec/paths/new_marketing_campaigns/contacts.json"
         },
         "/v3/marketing/contacts/imports": {
-            "$ref": "./spec/paths/new_marketing_campaigns/contacts.json#/marketing_contacts_imports"
+            "$ref": "./spec/paths/new_marketing_campaigns/contacts.json"
         },
         "/v3/marketing/contacts/imports/{id}": {
-            "$ref": "./spec/paths/new_marketing_campaigns/contacts.json#/marketing_contacts_imports_{id}"
+            "$ref": "./spec/paths/new_marketing_campaigns/contacts.json"
         },
         "/v3/marketing/contacts/exports": {
-            "$ref": "./spec/paths/new_marketing_campaigns/contacts.json#/marketing_contacts_exports"
+            "$ref": "./spec/paths/new_marketing_campaigns/contacts.json"
         },
         "/v3/marketing/contacts/exports/{id}": {
-            "$ref": "./spec/paths/new_marketing_campaigns/contacts.json#/marketing_contacts_exports_{id}"
+            "$ref": "./spec/paths/new_marketing_campaigns/contacts.json"
         },
         "/v3/marketing/contacts/batch": {
-            "$ref": "./spec/paths/new_marketing_campaigns/contacts.json#/marketing_contacts_batch"
+            "$ref": "./spec/paths/new_marketing_campaigns/contacts.json"
         },
         "/v3/marketing/contacts/search/emails": {
-            "$ref": "./spec/paths/new_marketing_campaigns/contacts.json#/marketing_contacts_search_emails"
+            "$ref": "./spec/paths/new_marketing_campaigns/contacts.json"
         },
         "/v3/marketing/segments/2.0": {
-            "$ref": "./spec/paths/new_marketing_campaigns/segmenting_contacts_v2.json#/marketing_segments_2.0"
+            "$ref": "./spec/paths/new_marketing_campaigns/segmenting_contacts_v2.json"
         },
         "/v3/marketing/segments/2.0/{segment_id}": {
-            "$ref": "./spec/paths/new_marketing_campaigns/segmenting_contacts_v2.json#/marketing_segments_2.0_{segment_id}"
+            "$ref": "./spec/paths/new_marketing_campaigns/segmenting_contacts_v2.json"
         },
         "/v3/marketing/segments/2.0/refresh/{segment_id}": {
-            "$ref": "./spec/paths/new_marketing_campaigns/segmenting_contacts_v2.json#/marketing_segments_2.0_refresh_{segment_id}"
+            "$ref": "./spec/paths/new_marketing_campaigns/segmenting_contacts_v2.json"
         },
         "/v3/marketing/senders": {
-            "$ref": "./spec/paths/new_marketing_campaigns/senders.json#/marketing_senders"
+            "$ref": "./spec/paths/new_marketing_campaigns/senders.json"
         },
         "/v3/marketing/lists": {
-            "$ref": "./spec/paths/new_marketing_campaigns/lists.json#/marketing_lists"
+            "$ref": "./spec/paths/new_marketing_campaigns/lists.json"
         },
         "/v3/marketing/lists/{id}/contacts/count": {
-            "$ref": "./spec/paths/new_marketing_campaigns/lists.json#/marketing_lists_{id}_contacts_count"
+            "$ref": "./spec/paths/new_marketing_campaigns/lists.json"
         },
         "/v3/marketing/lists/{id}": {
-            "$ref": "./spec/paths/new_marketing_campaigns/lists.json#/marketing_lists_{id}"
+            "$ref": "./spec/paths/new_marketing_campaigns/lists.json"
         },
         "/v3/marketing/lists/{id}/contacts": {
-            "$ref": "./spec/paths/new_marketing_campaigns/lists.json#/marketing_lists_{id}_contacts"
+            "$ref": "./spec/paths/new_marketing_campaigns/lists.json"
         },
         "/v3/marketing/field_definitions": {
-            "$ref": "./spec/paths/new_marketing_campaigns/custom_fields.json#/marketing_field_definitions"
+            "$ref": "./spec/paths/new_marketing_campaigns/custom_fields.json"
         },
         "/v3/marketing/field_definitions/{custom_field_id}": {
-            "$ref": "./spec/paths/new_marketing_campaigns/custom_fields.json#/marketing_field_definitions_{custom_field_id}"
+            "$ref": "./spec/paths/new_marketing_campaigns/custom_fields.json"
         },
         "/v3/marketing/segments": {
-            "$ref": "./spec/paths/new_marketing_campaigns/segmenting_contacts.json#/marketing_segments"
+            "$ref": "./spec/paths/new_marketing_campaigns/segmenting_contacts.json"
         },
         "/v3/marketing/segments/{segment_id}": {
-            "$ref": "./spec/paths/new_marketing_campaigns/segmenting_contacts.json#/marketing_segments_{segment_id}"
+            "$ref": "./spec/paths/new_marketing_campaigns/segmenting_contacts.json"
         },
         "/v3/marketing/singlesends": {
-            "$ref": "./spec/paths/new_marketing_campaigns/single_sends.json#/marketing_singlesends"
+            "$ref": "./spec/paths/new_marketing_campaigns/single_sends.json"
         },
         "/v3/marketing/singlesends/{id}": {
-            "$ref": "./spec/paths/new_marketing_campaigns/single_sends.json#/marketing_singlesends_{id}"
+            "$ref": "./spec/paths/new_marketing_campaigns/single_sends.json"
         },
         "/v3/marketing/singlesends/search": {
-            "$ref": "./spec/paths/new_marketing_campaigns/single_sends.json#/marketing_singlesends_search"
+            "$ref": "./spec/paths/new_marketing_campaigns/single_sends.json"
         },
         "/v3/marketing/singlesends/{id}/schedule": {
-            "$ref": "./spec/paths/new_marketing_campaigns/single_sends.json#/marketing_singlesends_{id}_schedule"
+            "$ref": "./spec/paths/new_marketing_campaigns/single_sends.json"
         },
         "/v3/marketing/singlesends/categories": {
-            "$ref": "./spec/paths/new_marketing_campaigns/single_sends.json#/marketing_singlesends_categories"
+            "$ref": "./spec/paths/new_marketing_campaigns/single_sends.json"
         },
         "/v3/marketing/test/send_email": {
-            "$ref": "./spec/paths/new_marketing_campaigns/send_test_email.json#/marketing_test_send_email"
+            "$ref": "./spec/paths/new_marketing_campaigns/send_test_email.json"
         },
         "/v3/marketing/stats/automations": {
-            "$ref": "./spec/paths/new_marketing_campaigns/marketing_campaigns_stats.json#/marketing_stats_automations"
+            "$ref": "./spec/paths/new_marketing_campaigns/marketing_campaigns_stats.json"
         },
         "/v3/marketing/stats/automations/{id}": {
-            "$ref": "./spec/paths/new_marketing_campaigns/marketing_campaigns_stats.json#/marketing_stats_automations_{id}"
+            "$ref": "./spec/paths/new_marketing_campaigns/marketing_campaigns_stats.json"
         },
         "/v3/marketing/stats/singlesends": {
-            "$ref": "./spec/paths/new_marketing_campaigns/marketing_campaigns_stats.json#/marketing_stats_singlesends"
+            "$ref": "./spec/paths/new_marketing_campaigns/marketing_campaigns_stats.json"
         },
         "/v3/marketing/stats/singlesends/{id}": {
-            "$ref": "./spec/paths/new_marketing_campaigns/marketing_campaigns_stats.json#/marketing_stats_singlesends_{id}"
+            "$ref": "./spec/paths/new_marketing_campaigns/marketing_campaigns_stats.json"
         },
         "/v3/marketing/stats/automations/{id}/links": {
-            "$ref": "./spec/paths/new_marketing_campaigns/marketing_campaigns_stats.json#/marketing_stats_automations_{id}_links"
+            "$ref": "./spec/paths/new_marketing_campaigns/marketing_campaigns_stats.json"
         },
         "/v3/marketing/stats/singlesends/{id}/links": {
-            "$ref": "./spec/paths/new_marketing_campaigns/marketing_campaigns_stats.json#/marketing_stats_singlesends_{id}_links"
+            "$ref": "./spec/paths/new_marketing_campaigns/marketing_campaigns_stats.json"
         },
         "/v3/marketing/stats/singlesends/export": {
-            "$ref": "./spec/paths/new_marketing_campaigns/marketing_campaigns_stats.json#/marketing_stats_singlesends_export"
+            "$ref": "./spec/paths/new_marketing_campaigns/marketing_campaigns_stats.json"
         },
         "/v3/marketing/stats/automations/export": {
-            "$ref": "./spec/paths/new_marketing_campaigns/marketing_campaigns_stats.json#/marketing_stats_automations_export"
+            "$ref": "./spec/paths/new_marketing_campaigns/marketing_campaigns_stats.json"
         },
         "/v3/senders": {
-            "$ref": "./spec/paths/legacy_marketing_campaigns/sender_identities_api.json#/senders"
+            "$ref": "./spec/paths/legacy_marketing_campaigns/sender_identities_api.json"
         },
         "/v3/senders/{sender_id}": {
-            "$ref": "./spec/paths/legacy_marketing_campaigns/sender_identities_api.json#/senders_{sender_id}"
+            "$ref": "./spec/paths/legacy_marketing_campaigns/sender_identities_api.json"
         },
         "/v3/senders/{sender_id}/resend_verification": {
-            "$ref": "./spec/paths/legacy_marketing_campaigns/sender_identities_api.json#/senders_{sender_id}_resend_verification"
+            "$ref": "./spec/paths/legacy_marketing_campaigns/sender_identities_api.json"
         },
         "/v3/contactdb/lists": {
-            "$ref": "./spec/paths/legacy_marketing_campaigns/contacts_api_lists.json#/contactdb_lists"
+            "$ref": "./spec/paths/legacy_marketing_campaigns/contacts_api_lists.json"
         },
         "/v3/contactdb/lists/{list_id}": {
-            "$ref": "./spec/paths/legacy_marketing_campaigns/contacts_api_lists.json#/contactdb_lists_{list_id}"
+            "$ref": "./spec/paths/legacy_marketing_campaigns/contacts_api_lists.json"
         },
         "/v3/contactdb/lists/{list_id}/recipients": {
-            "$ref": "./spec/paths/legacy_marketing_campaigns/contacts_api_lists.json#/contactdb_lists_{list_id}_recipients"
+            "$ref": "./spec/paths/legacy_marketing_campaigns/contacts_api_lists.json"
         },
         "/v3/contactdb/lists/{list_id}/recipients/{recipient_id}": {
-            "$ref": "./spec/paths/legacy_marketing_campaigns/contacts_api_lists.json#/contactdb_lists_{list_id}_recipients_{recipient_id}"
+            "$ref": "./spec/paths/legacy_marketing_campaigns/contacts_api_lists.json"
         },
         "/v3/contactdb/recipients": {
-            "$ref": "./spec/paths/legacy_marketing_campaigns/contacts_api_recipients.json#/contactdb_recipients"
+            "$ref": "./spec/paths/legacy_marketing_campaigns/contacts_api_recipients.json"
         },
         "/v3/contactdb/status": {
-            "$ref": "./spec/paths/legacy_marketing_campaigns/contacts_api_recipients.json#/contactdb_status"
+            "$ref": "./spec/paths/legacy_marketing_campaigns/contacts_api_recipients.json"
         },
         "/v3/contactdb/recipients/{recipient_id}": {
-            "$ref": "./spec/paths/legacy_marketing_campaigns/contacts_api_recipients.json#/contactdb_recipients_{recipient_id}"
+            "$ref": "./spec/paths/legacy_marketing_campaigns/contacts_api_recipients.json"
         },
         "/v3/contactdb/recipients/{recipient_id}/lists": {
-            "$ref": "./spec/paths/legacy_marketing_campaigns/contacts_api_recipients.json#/contactdb_recipients_{recipient_id}_lists"
+            "$ref": "./spec/paths/legacy_marketing_campaigns/contacts_api_recipients.json"
         },
         "/v3/contactdb/recipients/billable_count": {
-            "$ref": "./spec/paths/legacy_marketing_campaigns/contacts_api_recipients.json#/contactdb_recipients_billable_count"
+            "$ref": "./spec/paths/legacy_marketing_campaigns/contacts_api_recipients.json"
         },
         "/v3/contactdb/recipients/count": {
-            "$ref": "./spec/paths/legacy_marketing_campaigns/contacts_api_recipients.json#/contactdb_recipients_count"
+            "$ref": "./spec/paths/legacy_marketing_campaigns/contacts_api_recipients.json"
         },
         "/v3/contactdb/recipients/search": {
-            "$ref": "./spec/paths/legacy_marketing_campaigns/contacts_api_recipients.json#/contactdb_recipients_search"
+            "$ref": "./spec/paths/legacy_marketing_campaigns/contacts_api_recipients.json"
         },
         "/v3/contactdb/custom_fields": {
-            "$ref": "./spec/paths/legacy_marketing_campaigns/contacts_api_custom_fields.json#/contactdb_custom_fields"
+            "$ref": "./spec/paths/legacy_marketing_campaigns/contacts_api_custom_fields.json"
         },
         "/v3/contactdb/custom_fields/{custom_field_id}": {
-            "$ref": "./spec/paths/legacy_marketing_campaigns/contacts_api_custom_fields.json#/contactdb_custom_fields_{custom_field_id}"
+            "$ref": "./spec/paths/legacy_marketing_campaigns/contacts_api_custom_fields.json"
         },
         "/v3/contactdb/reserved_fields": {
-            "$ref": "./spec/paths/legacy_marketing_campaigns/contacts_api_custom_fields.json#/contactdb_reserved_fields"
+            "$ref": "./spec/paths/legacy_marketing_campaigns/contacts_api_custom_fields.json"
         },
         "/v3/contactdb/segments": {
-            "$ref": "./spec/paths/legacy_marketing_campaigns/contacts_api_segments.json#/contactdb_segments"
+            "$ref": "./spec/paths/legacy_marketing_campaigns/contacts_api_segments.json"
         },
         "/v3/contactdb/segments/{segment_id}": {
-            "$ref": "./spec/paths/legacy_marketing_campaigns/contacts_api_segments.json#/contactdb_segments_{segment_id}"
+            "$ref": "./spec/paths/legacy_marketing_campaigns/contacts_api_segments.json"
         },
         "/v3/contactdb/segments/{segment_id}/recipients": {
-            "$ref": "./spec/paths/legacy_marketing_campaigns/contacts_api_segments.json#/contactdb_segments_{segment_id}_recipients"
+            "$ref": "./spec/paths/legacy_marketing_campaigns/contacts_api_segments.json"
         },
         "/v3/campaigns": {
-            "$ref": "./spec/paths/legacy_marketing_campaigns/api.json#/campaigns"
+            "$ref": "./spec/paths/legacy_marketing_campaigns/api.json"
         },
         "/v3/campaigns/{campaign_id}": {
-            "$ref": "./spec/paths/legacy_marketing_campaigns/api.json#/campaigns_{campaign_id}"
+            "$ref": "./spec/paths/legacy_marketing_campaigns/api.json"
         },
         "/v3/campaigns/{campaign_id}/schedules/now": {
-            "$ref": "./spec/paths/legacy_marketing_campaigns/api.json#/campaigns_{campaign_id}_schedules_now"
+            "$ref": "./spec/paths/legacy_marketing_campaigns/api.json"
         },
         "/v3/campaigns/{campaign_id}/schedules": {
-            "$ref": "./spec/paths/legacy_marketing_campaigns/api.json#/campaigns_{campaign_id}_schedules"
+            "$ref": "./spec/paths/legacy_marketing_campaigns/api.json"
         },
         "/v3/campaigns/{campaign_id}/schedules/test": {
-            "$ref": "./spec/paths/legacy_marketing_campaigns/api.json#/campaigns_{campaign_id}_schedules_test"
+            "$ref": "./spec/paths/legacy_marketing_campaigns/api.json"
         },
         "/v3/templates": {
-            "$ref": "./spec/paths/templates/transactional_templates.json#/templates"
+            "$ref": "./spec/paths/templates/transactional_templates.json"
         },
         "/v3/templates/{template_id}": {
-            "$ref": "./spec/paths/templates/transactional_templates.json#/templates_{template_id}"
+            "$ref": "./spec/paths/templates/transactional_templates.json"
         },
         "/v3/templates/{template_id}/versions": {
-            "$ref": "./spec/paths/templates/transactional_templates_versions.json#/templates_{template_id}_versions"
+            "$ref": "./spec/paths/templates/transactional_templates_versions.json"
         },
         "/v3/templates/{template_id}/versions/{version_id}": {
-            "$ref": "./spec/paths/templates/transactional_templates_versions.json#/templates_{template_id}_versions_{version_id}"
+            "$ref": "./spec/paths/templates/transactional_templates_versions.json"
         },
         "/v3/templates/{template_id}/versions/{version_id}/activate": {
-            "$ref": "./spec/paths/templates/transactional_templates_versions.json#/templates_{template_id}_versions_{version_id}_activate"
+            "$ref": "./spec/paths/templates/transactional_templates_versions.json"
         },
         "/v3/user/webhooks/event/settings": {
-            "$ref": "./spec/paths/event_tracking/webhooks.json#/user_webhooks_event_settings"
+            "$ref": "./spec/paths/event_tracking/webhooks.json"
         },
         "/v3/user/webhooks/event/settings/all": {
-            "$ref": "./spec/paths/event_tracking/webhooks.json#/user_webhooks_event_settings_all"
+            "$ref": "./spec/paths/event_tracking/webhooks.json"
         },
         "/v3/user/webhooks/event/settings/{id}": {
-            "$ref": "./spec/paths/event_tracking/webhooks.json#/user_webhooks_event_settings_{id}"
+            "$ref": "./spec/paths/event_tracking/webhooks.json"
         },
         "/v3/user/webhooks/event/settings/signed/{id}": {
-            "$ref": "./spec/paths/event_tracking/webhooks.json#/user_webhooks_event_settings_signed_{id}"
+            "$ref": "./spec/paths/event_tracking/webhooks.json"
         },
         "/v3/user/webhooks/event/test": {
-            "$ref": "./spec/paths/event_tracking/webhooks.json#/user_webhooks_event_test"
+            "$ref": "./spec/paths/event_tracking/webhooks.json"
         },
         "/v3/user/webhooks/parse/settings": {
-            "$ref": "./spec/paths/inbound_parse/settings.json#/user_webhooks_parse_settings"
+            "$ref": "./spec/paths/inbound_parse/settings.json"
         },
         "/v3/user/webhooks/parse/stats": {
-            "$ref": "./spec/paths/event_tracking/webhooks.json#/user_webhooks_parse_stats"
+            "$ref": "./spec/paths/event_tracking/webhooks.json"
         },
         "/v3/tracking_settings": {
-            "$ref": "./spec/paths/event_tracking/settings_tracking.json#/tracking_settings"
+            "$ref": "./spec/paths/event_tracking/settings_tracking.json"
         },
         "/v3/tracking_settings/click": {
-            "$ref": "./spec/paths/event_tracking/settings_tracking.json#/tracking_settings_click"
+            "$ref": "./spec/paths/event_tracking/settings_tracking.json"
         },
         "/v3/tracking_settings/google_analytics": {
-            "$ref": "./spec/paths/event_tracking/settings_tracking.json#/tracking_settings_google_analytics"
+            "$ref": "./spec/paths/event_tracking/settings_tracking.json"
         },
         "/v3/tracking_settings/open": {
-            "$ref": "./spec/paths/event_tracking/settings_tracking.json#/tracking_settings_open"
+            "$ref": "./spec/paths/event_tracking/settings_tracking.json"
         },
         "/v3/tracking_settings/subscription": {
-            "$ref": "./spec/paths/event_tracking/settings_tracking.json#/tracking_settings_subscription"
+            "$ref": "./spec/paths/event_tracking/settings_tracking.json"
         },
         "/v3/stats": {
-            "$ref": "./spec/paths/stats/stats.json#/stats"
+            "$ref": "./spec/paths/stats/stats.json"
         },
         "/v3/geo/stats": {
-            "$ref": "./spec/paths/stats/stats.json#/geo_stats"
+            "$ref": "./spec/paths/stats/stats.json"
         },
         "/v3/devices/stats": {
-            "$ref": "./spec/paths/stats/stats.json#/devices_stats"
+            "$ref": "./spec/paths/stats/stats.json"
         },
         "/v3/clients/stats": {
-            "$ref": "./spec/paths/stats/stats.json#/clients_stats"
+            "$ref": "./spec/paths/stats/stats.json"
         },
         "/v3/clients/{client_type}/stats": {
-            "$ref": "./spec/paths/stats/stats.json#/clients_{client_type}_stats"
+            "$ref": "./spec/paths/stats/stats.json"
         },
         "/v3/mailbox_providers/stats": {
-            "$ref": "./spec/paths/stats/stats.json#/mailbox_providers_stats"
+            "$ref": "./spec/paths/stats/stats.json"
         },
         "/v3/browsers/stats": {
-            "$ref": "./spec/paths/stats/stats.json#/browsers_stats"
+            "$ref": "./spec/paths/stats/stats.json"
         },
         "/v3/categories": {
-            "$ref": "./spec/paths/stats/categories.json#/categories"
+            "$ref": "./spec/paths/stats/categories.json"
         },
         "/v3/categories/stats/sums": {
-            "$ref": "./spec/paths/stats/categories.json#/categories_stats_sums"
+            "$ref": "./spec/paths/stats/categories.json"
         },
         "/v3/categories/stats": {
-            "$ref": "./spec/paths/stats/categories.json#/categories_stats"
+            "$ref": "./spec/paths/stats/categories.json"
         },
         "/v3/suppression/bounces": {
-            "$ref": "./spec/paths/supression_management/bounces.json#/suppression_bounces"
+            "$ref": "./spec/paths/supression_management/bounces.json"
         },
         "/v3/suppression/bounces/{email}": {
-            "$ref": "./spec/paths/supression_management/bounces.json#/suppression_bounces_{email}"
+            "$ref": "./spec/paths/supression_management/bounces.json"
         },
         "/v3/suppression/bounces/classifications": {
-            "$ref": "./spec/paths/supression_management/bounces.json#/suppression_bounces_classifications"
+            "$ref": "./spec/paths/supression_management/bounces.json"
         },
         "/v3/suppression/bounces/classifications/{classification}": {
-            "$ref": "./spec/paths/supression_management/bounces.json#/suppression_bounces_classifications_{classification}"
+            "$ref": "./spec/paths/supression_management/bounces.json"
         },
         "/v3/suppression/blocks": {
-            "$ref": "./spec/paths/supression_management/blocks.json#/suppression_blocks"
+            "$ref": "./spec/paths/supression_management/blocks.json"
         },
         "/v3/suppression/blocks/{email}": {
-            "$ref": "./spec/paths/supression_management/blocks.json#/suppression_blocks_{email}"
+            "$ref": "./spec/paths/supression_management/blocks.json"
         },
         "/v3/suppression/spam_reports": {
-            "$ref": "./spec/paths/supression_management/spam_reports.json#/suppression_spam_reports"
+            "$ref": "./spec/paths/supression_management/spam_reports.json"
         },
         "/v3/suppression/spam_reports/{email}": {
-            "$ref": "./spec/paths/supression_management/spam_reports.json#/suppression_spam_reports_{email}"
+            "$ref": "./spec/paths/supression_management/spam_reports.json"
         },
         "/v3/asm/suppressions/global": {
-            "$ref": "./spec/paths/supression_management/global_suppressions.json#/asm_suppressions_global"
+            "$ref": "./spec/paths/supression_management/global_suppressions.json"
         },
         "/v3/suppression/unsubscribes": {
-            "$ref": "./spec/paths/supression_management/global_suppressions.json#/suppression_unsubscribes"
+            "$ref": "./spec/paths/supression_management/global_suppressions.json"
         },
         "/v3/asm/suppressions/global/{email}": {
-            "$ref": "./spec/paths/supression_management/global_suppressions.json#/asm_suppressions_global_{email}"
+            "$ref": "./spec/paths/supression_management/global_suppressions.json"
         },
         "/v3/asm/groups": {
-            "$ref": "./spec/paths/supression_management/unsubscribe_groups.json#/asm_groups"
+            "$ref": "./spec/paths/supression_management/unsubscribe_groups.json"
         },
         "/v3/asm/groups/{group_id}": {
-            "$ref": "./spec/paths/supression_management/unsubscribe_groups.json#/asm_groups_{group_id}"
+            "$ref": "./spec/paths/supression_management/unsubscribe_groups.json"
         },
         "/v3/asm/groups/{group_id}/suppressions": {
-            "$ref": "./spec/paths/supression_management/supressions.json#/asm_groups_{group_id}_suppressions"
+            "$ref": "./spec/paths/supression_management/supressions.json"
         },
         "/v3/asm/groups/{group_id}/suppressions/search": {
-            "$ref": "./spec/paths/supression_management/supressions.json#/asm_groups_{group_id}_suppressions_search"
+            "$ref": "./spec/paths/supression_management/supressions.json"
         },
         "/v3/asm/suppressions": {
-            "$ref": "./spec/paths/supression_management/supressions.json#/asm_suppressions"
+            "$ref": "./spec/paths/supression_management/supressions.json"
         },
         "/v3/asm/suppressions/{email}": {
-            "$ref": "./spec/paths/supression_management/supressions.json#/asm_suppressions_{email}"
+            "$ref": "./spec/paths/supression_management/supressions.json"
         },
         "/v3/asm/groups/{group_id}/suppressions/{email}": {
-            "$ref": "./spec/paths/supression_management/supressions.json#/asm_groups_{group_id}_suppressions_{email}"
+            "$ref": "./spec/paths/supression_management/supressions.json"
         },
         "/v3/suppression/invalid_emails": {
-            "$ref": "./spec/paths/supression_management/invalid.json#/suppression_invalid_emails"
+            "$ref": "./spec/paths/supression_management/invalid.json"
         },
         "/v3/suppression/invalid_emails/{email}": {
-            "$ref": "./spec/paths/supression_management/invalid.json#/suppression_invalid_emails_{email}"
+            "$ref": "./spec/paths/supression_management/invalid.json"
         },
         "/v3/user/webhooks/parse/settings/{hostname}": {
-            "$ref": "./spec/paths/inbound_parse/settings.json#/user_webhooks_parse_settings_{hostname}"
+            "$ref": "./spec/paths/inbound_parse/settings.json"
         },
         "/v3/mail/batch": {
-            "$ref": "./spec/paths/cancel_scheduled_sends.json#/mail_batch"
+            "$ref": "./spec/paths/cancel_scheduled_sends.json"
         },
         "/v3/user/scheduled_sends": {
-            "$ref": "./spec/paths/cancel_scheduled_sends.json#/user_scheduled_sends"
+            "$ref": "./spec/paths/cancel_scheduled_sends.json"
         },
         "/v3/mail/batch/{batch_id}": {
-            "$ref": "./spec/paths/cancel_scheduled_sends.json#/mail_batch_{batch_id}"
+            "$ref": "./spec/paths/cancel_scheduled_sends.json"
         },
         "/v3/user/scheduled_sends/{batch_id}": {
-            "$ref": "./spec/paths/cancel_scheduled_sends.json#/user_scheduled_sends_{batch_id}"
+            "$ref": "./spec/paths/cancel_scheduled_sends.json"
         },
         "/v3/messages": {
-            "$ref": "./spec/paths/email_activity.json#/messages"
+            "$ref": "./spec/paths/email_activity.json"
         },
         "/v3/messages/{msg_id}": {
-            "$ref": "./spec/paths/email_activity.json#/messages_{msg_id}"
+            "$ref": "./spec/paths/email_activity.json"
         },
         "/v3/messages/download": {
-            "$ref": "./spec/paths/email_activity.json#/messages_download"
+            "$ref": "./spec/paths/email_activity.json"
         },
         "/v3/messages/download/{download_uuid}": {
-            "$ref": "./spec/paths/email_activity.json#/messages_download_{download_uuid}"
+            "$ref": "./spec/paths/email_activity.json"
         },
         "/v3/partners/accounts": {
-            "$ref": "./spec/paths/account_provisioning/account_provisioning.json#/accounts"
+            "$ref": "./spec/paths/account_provisioning/account_provisioning.json"
         },
         "/v3/partners/accounts/{accountID}": {
-            "$ref": "./spec/paths/account_provisioning/account_provisioning.json#/accounts_{accountID}"
+            "$ref": "./spec/paths/account_provisioning/account_provisioning.json"
         },
         "/v3/partners/accounts/{accountID}/sso": {
-            "$ref": "./spec/paths/account_provisioning/account_provisioning.json#/accounts_{accountID}_sso"
+            "$ref": "./spec/paths/account_provisioning/account_provisioning.json"
         },
         "/v3/partners/accounts/{accountID}/state": {
-            "$ref": "./spec/paths/account_provisioning/account_provisioning.json#/accounts_{accountID}_state"
+            "$ref": "./spec/paths/account_provisioning/account_provisioning.json"
         },
         "/v3/partners/offerings": {
-            "$ref": "./spec/paths/account_provisioning/account_provisioning.json#/offerings"
+            "$ref": "./spec/paths/account_provisioning/account_provisioning.json"
         },
         "/v3/partners/accounts/{accountID}/offerings": {
-            "$ref": "./spec/paths/account_provisioning/account_provisioning.json#/accounts_{accountID}_offerings"
+            "$ref": "./spec/paths/account_provisioning/account_provisioning.json"
         }
     },
     "components": {
